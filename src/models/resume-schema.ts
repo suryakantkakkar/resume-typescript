@@ -2,7 +2,7 @@ import { DataTypes, Model, Optional } from 'sequelize';
 import{ sequelizeInstance} from '../config/db';
 
 export interface ResumeAttributes {
-  id?: number;  // Make 'id' optional
+  id?: number;  
   firstName: string;
   lastName: string;
   email: string;
